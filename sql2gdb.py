@@ -4,7 +4,7 @@ import arcpy
 import pyodbc
 
 
-def sql_to_gdb(datadict, cnxn_string, workspace, sqltbl, target_tbl="output_table"):
+def sql2gdb(datadict, cnxn_string, workspace, sqltbl, target_tbl="output_table"):
     """ Converts a SQL table to a esri geodatabase table. Uses pyodbc cursor to fetch the records from SQL and passes
     them to a numpy array. Uses arcpy numpy array to table to create output. Parameters examples include the following:
 
