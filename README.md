@@ -1,2 +1,2 @@
 # sql2gdb
-converts sql tables to esri geodatabase format
+converts sql tables to esri geodatabase format. Requires pyodbc and arcpy.
